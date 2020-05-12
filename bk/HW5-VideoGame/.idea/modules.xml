@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HW5-VideoGame*.iml" filepath="$PROJECT_DIR$/HW5-VideoGame*.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HW5-VideoGame.iml" filepath="$PROJECT_DIR$/HW5-VideoGame.iml" />
     </modules>
   </component>
 </project>
