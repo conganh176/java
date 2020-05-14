@@ -48,6 +48,26 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        
+        System.out.println("121 is palidrome: " + isPalindrome(121));
+        System.out.println("12321 is palidrome: " + isPalindrome(12321));
+        System.out.println("123 is palidrome: " + isPalindrome(123));
+        System.out.println("-989 is palidrome: " + isPalindrome(-989));
+    }
+
+    public static boolean isPalindrome(int number) {
+        int originNumber = number;
+        int reverse = 0;
+        int lastDigit = number % 10;
+
+        while (number != 0){
+            lastDigit = number % 10;
+            reverse = reverse * 10 + lastDigit;
+            number /= 10;
+        }
+
+        if (originNumber == reverse )
+            return true;
+
+        return false;
     }
 }
